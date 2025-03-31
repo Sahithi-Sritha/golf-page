@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position: Relative vs Absolute</title>
+  <style>
+    .container {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 2px solid black;
+      margin: 50px auto;
+    }
+
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 20px;
+      left: 200px;
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Relative vs Absolute Position</h2>
+  <div class="container">
+    <div class="relative-box">Relative</div>
+    <div class="absolute-box">Absolute</div>
+  </div>
+</body>
+</html>
